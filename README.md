@@ -21,7 +21,7 @@
 * SPI карт-ридер для SD карт;
 * прямые руки.
 
-![BAAS_ESP8266_Lolin](Images/BAAS_ESP8266_Lolin.svg)
+![BAAS_ESP8266_Lolin](Images/BAAS_ESP8266_Lolin.jpg)
 
 Схема подключения.
 
