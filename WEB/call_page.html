@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAAS</title>
+	<script type="text/javascript">
+		function callCreate() {
+			var newCall = [
+				[				//Понедельник
+								// 1 пара
+						document.getElementById("1.1").innerText.split(":"),
+						document.getElementById("1.2").innerText.split(":"),
+						document.getElementById("1.3").innerText.split(":"),
+						document.getElementById("1.4").innerText.split(":"),
+								// 2 пара
+						document.getElementById("1.5").innerText.split(":"),
+						document.getElementById("1.6").innerText.split(":"),
+						document.getElementById("1.7").innerText.split(":"),
+						document.getElementById("1.8").innerText.split(":"),
+								// 3 пара
+						document.getElementById("1.9").innerText.split(":"),
+						document.getElementById("1.10").innerText.split(":"),
+						document.getElementById("1.11").innerText.split(":"),
+						document.getElementById("1.12").innerText.split(":"),
+								// 4 пара
+						document.getElementById("1.13").innerText.split(":"),
+						document.getElementById("1.14").innerText.split(":"),
+						document.getElementById("1.15").innerText.split(":"),
+						document.getElementById("1.16").innerText.split(":")
+					
+				],
+				[				//Вторник
+								// 1 пара
+						document.getElementById("2.1").innerText.split(":"),
+						document.getElementById("2.2").innerText.split(":"),
+						document.getElementById("2.3").innerText.split(":"),
+						document.getElementById("2.4").innerText.split(":"),
+								// 2 пара
+						document.getElementById("2.5").innerText.split(":"),
+						document.getElementById("2.6").innerText.split(":"),
+						document.getElementById("2.7").innerText.split(":"),
+						document.getElementById("2.8").innerText.split(":"),
+								// 3 пара
+						document.getElementById("2.9").innerText.split(":"),
+						document.getElementById("2.10").innerText.split(":"),
+						document.getElementById("2.11").innerText.split(":"),
+						document.getElementById("2.12").innerText.split(":"),
+								// 4 пара
+						document.getElementById("2.13").innerText.split(":"),
+						document.getElementById("2.14").innerText.split(":"),
+						document.getElementById("2.15").innerText.split(":"),
+						document.getElementById("2.16").innerText.split(":")
+					
+				],
+				[				//Среда
+								// 1 пара
+						document.getElementById("3.1").innerText.split(":"),
+						document.getElementById("3.2").innerText.split(":"),
+						document.getElementById("3.3").innerText.split(":"),
+						document.getElementById("3.4").innerText.split(":"),
+								// 2 пара
+						document.getElementById("3.5").innerText.split(":"),
+						document.getElementById("3.6").innerText.split(":"),
+						document.getElementById("3.7").innerText.split(":"),
+						document.getElementById("3.8").innerText.split(":"),
+								// 3 пара
+						document.getElementById("3.9").innerText.split(":"),
+						document.getElementById("3.10").innerText.split(":"),
+						document.getElementById("3.11").innerText.split(":"),
+						document.getElementById("3.12").innerText.split(":"),
+								// 4 пара
+						document.getElementById("3.13").innerText.split(":"),
+						document.getElementById("3.14").innerText.split(":"),
+						document.getElementById("3.15").innerText.split(":"),
+						document.getElementById("3.16").innerText.split(":")
+					
+				],
+				[				//Четверг
+								// 1 пара
+						document.getElementById("4.1").innerText.split(":"),
+						document.getElementById("4.2").innerText.split(":"),
+						document.getElementById("4.3").innerText.split(":"),
+						document.getElementById("4.4").innerText.split(":"),
+								// 2 пара
+						document.getElementById("4.5").innerText.split(":"),
+						document.getElementById("4.6").innerText.split(":"),
+						document.getElementById("4.7").innerText.split(":"),
+						document.getElementById("4.8").innerText.split(":"),
+								// 3 пара
+						document.getElementById("4.9").innerText.split(":"),
+						document.getElementById("4.10").innerText.split(":"),
+						document.getElementById("4.11").innerText.split(":"),
+						document.getElementById("4.12").innerText.split(":"),
+								// 4 пара
+						document.getElementById("4.13").innerText.split(":"),
+						document.getElementById("4.14").innerText.split(":"),
+						document.getElementById("4.15").innerText.split(":"),
+						document.getElementById("4.16").innerText.split(":")
+					
+				],
+				[				//Пятница
+								// 1 пара
+						document.getElementById("5.1").innerText.split(":"),
+						document.getElementById("5.2").innerText.split(":"),
+						document.getElementById("5.3").innerText.split(":"),
+						document.getElementById("5.4").innerText.split(":"),
+								// 2 пара
+						document.getElementById("5.5").innerText.split(":"),
+						document.getElementById("5.6").innerText.split(":"),
+						document.getElementById("5.7").innerText.split(":"),
+						document.getElementById("5.8").innerText.split(":"),
+								// 3 пара
+						document.getElementById("5.9").innerText.split(":"),
+						document.getElementById("5.10").innerText.split(":"),
+						document.getElementById("5.11").innerText.split(":"),
+						document.getElementById("5.12").innerText.split(":"),
+								// 4 пара
+						document.getElementById("5.13").innerText.split(":"),
+						document.getElementById("5.14").innerText.split(":"),
+						document.getElementById("5.15").innerText.split(":"),
+						document.getElementById("5.16").innerText.split(":")
+					
+				],
+				[				//Суббота
+								// 1 пара
+						document.getElementById("6.1").innerText.split(":"),
+						document.getElementById("6.2").innerText.split(":"),
+						document.getElementById("6.3").innerText.split(":"),
+						document.getElementById("6.4").innerText.split(":"),
+								// 2 пара
+						document.getElementById("6.5").innerText.split(":"),
+						document.getElementById("6.6").innerText.split(":"),
+						document.getElementById("6.7").innerText.split(":"),
+						document.getElementById("6.8").innerText.split(":"),
+								// 3 пара
+						document.getElementById("6.9").innerText.split(":"),
+						document.getElementById("6.10").innerText.split(":"),
+						document.getElementById("6.11").innerText.split(":"),
+						document.getElementById("6.12").innerText.split(":"),
+								// 4 пара
+						document.getElementById("6.13").innerText.split(":"),
+						document.getElementById("6.14").innerText.split(":"),
+						document.getElementById("6.15").innerText.split(":"),
+						document.getElementById("6.16").innerText.split(":")
+					
+				]
+			]
+			
+			var call = JSON.stringify(newCall);
+			alert("Отправка Json");
+			
+			var element = document.createElement('a');
+			element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(call));
+			element.setAttribute('download', 'call.json');
+			
+			element.style.display = 'none';
+			document.body.appendChild(element);
+			
+			element.click();
+			
+			document.body.removeChild(element);
+		}
+		
+		window.addEventListener('load', function() {
+			var upload = document.getElementById('file');
+  
+			if (upload) {
+				upload.addEventListener('change', function() {
+					if (upload.files.length > 0) {
+					
+						var reader = new FileReader(); 
+						reader.addEventListener('load', function() {
+						
+							var result = JSON.parse(reader.result);
+							
+							for (let d = 0; d < 6; d++) {
+								for (let c = 0; c < 16; c++) {
+									document.getElementById(`${d+1}.${c+1}`).innerHTML = result[d][c][0] + ":" + result[d][c][1] + ":" + result[d][c][2];
+								}
+							}
+							
+						});
+						
+						reader.readAsText(upload.files[0]);
+					}
+				});
+			}
+		});
+	</script>
+    <style>
+		body {
+			min-width: 600px;
+		}
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+            height: 20%;
+        }
+        main {
+            text-align: center;
+			background-color: #fff;
+        }
+		.column {
+			white-space: normal;	
+			display: inline-block;
+			width: 47%;
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+        form {
+			border: 1px solid #000;
+			border-radius: 10px;
+			margin-bottom: 5vh;
+		}
+		table {
+            text-align: center;
+			display: inline-block;
+			background-color: #f2f2f2;
+			border-collapse: collapse;
+			border-spacing: 0px;
+			margin-bottom: 5px;
+		}
+		td {
+			padding: 5px;
+			border: 1px solid black;
+		}
+		.button {
+			margin-bottom: 15px;
+		}
+        footer {
+            text-align: center;
+            background-color: #f2f2f2;
+            height: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>BAAS</h1>
+    </header>
+    <main>
+		<div class="column">
+			<form>
+				<p>Понедельник</p>
+				<table>
+					<thead>
+						<tr>
+							<td>№ пары</td>
+							<td>Начало</td>
+							<td>На пятиминутку</td>
+							<td>С пятиминутки</td>
+							<td>Конец</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 пара</td>
+							<td contenteditable = "true" id="1.1">00:00:00</td>
+							<td contenteditable = "true" id="1.2">00:00:00</td>
+							<td contenteditable = "true" id="1.3">00:00:00</td>
+							<td contenteditable = "true" id="1.4">00:00:00</td>
+						</tr>
+						<tr>
+							<td>2 пара</td>
+							<td contenteditable = "true" id="1.5"v>00:00:00</td>
+							<td contenteditable = "true" id="1.6">00:00:00</td>
+							<td contenteditable = "true" id="1.7">00:00:00</td>
+							<td contenteditable = "true" id="1.8">00:00:00</td>
+						</tr>
+						<tr>
+							<td>3 пара</td>
+							<td contenteditable = "true" id="1.9">00:00:00</td>
+							<td contenteditable = "true" id="1.10">00:00:00</td>
+							<td contenteditable = "true" id="1.11">00:00:00</td>
+							<td contenteditable = "true" id="1.12">00:00:00</td>
+						</tr>
+						<tr>
+							<td>4 пара</td>
+							<td contenteditable = "true" id="1.13">00:00:00</td>
+							<td contenteditable = "true" id="1.14">00:00:00</td>
+							<td contenteditable = "true" id="1.15">00:00:00</td>
+							<td contenteditable = "true" id="1.16">00:00:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+			<form>
+				<p>Вторник</p>
+				<table>
+					<thead>
+						<tr>
+							<td>№ пары</td>
+							<td>Начало</td>
+							<td>На пятиминутку</td>
+							<td>С пятиминутки</td>
+							<td>Конец</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 пара</td>
+							<td contenteditable = "true" id="2.1">00:00:00</td>
+							<td contenteditable = "true" id="2.2">00:00:00</td>
+							<td contenteditable = "true" id="2.3">00:00:00</td>
+							<td contenteditable = "true" id="2.4">00:00:00</td>
+						</tr>
+						<tr>
+							<td>2 пара</td>
+							<td contenteditable = "true" id="2.5"v>00:00:00</td>
+							<td contenteditable = "true" id="2.6">00:00:00</td>
+							<td contenteditable = "true" id="2.7">00:00:00</td>
+							<td contenteditable = "true" id="2.8">00:00:00</td>
+						</tr>
+						<tr>
+							<td>3 пара</td>
+							<td contenteditable = "true" id="2.9">00:00:00</td>
+							<td contenteditable = "true" id="2.10">00:00:00</td>
+							<td contenteditable = "true" id="2.11">00:00:00</td>
+							<td contenteditable = "true" id="2.12">00:00:00</td>
+						</tr>
+						<tr>
+							<td>4 пара</td>
+							<td contenteditable = "true" id="2.13">00:00:00</td>
+							<td contenteditable = "true" id="2.14">00:00:00</td>
+							<td contenteditable = "true" id="2.15">00:00:00</td>
+							<td contenteditable = "true" id="2.16">00:00:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+			<form>
+				<p>Среда</p>
+				<table>
+					<thead>
+						<tr>
+							<td>№ пары</td>
+							<td>Начало</td>
+							<td>На пятиминутку</td>
+							<td>С пятиминутки</td>
+							<td>Конец</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 пара</td>
+							<td contenteditable = "true" id="3.1">00:00:00</td>
+							<td contenteditable = "true" id="3.2">00:00:00</td>
+							<td contenteditable = "true" id="3.3">00:00:00</td>
+							<td contenteditable = "true" id="3.4">00:00:00</td>
+						</tr>
+						<tr>
+							<td>2 пара</td>
+							<td contenteditable = "true" id="3.5"v>00:00:00</td>
+							<td contenteditable = "true" id="3.6">00:00:00</td>
+							<td contenteditable = "true" id="3.7">00:00:00</td>
+							<td contenteditable = "true" id="3.8">00:00:00</td>
+						</tr>
+						<tr>
+							<td>3 пара</td>
+							<td contenteditable = "true" id="3.9">00:00:00</td>
+							<td contenteditable = "true" id="3.10">00:00:00</td>
+							<td contenteditable = "true" id="3.11">00:00:00</td>
+							<td contenteditable = "true" id="3.12">00:00:00</td>
+						</tr>
+						<tr>
+							<td>4 пара</td>
+							<td contenteditable = "true" id="3.13">00:00:00</td>
+							<td contenteditable = "true" id="3.14">00:00:00</td>
+							<td contenteditable = "true" id="3.15">00:00:00</td>
+							<td contenteditable = "true" id="3.16">00:00:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+		<div class="column">
+			<form>
+				<p>Четверг</p>
+				<table>
+					<thead>
+						<tr>
+							<td>№ пары</td>
+							<td>Начало</td>
+							<td>На пятиминутку</td>
+							<td>С пятиминутки</td>
+							<td>Конец</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 пара</td>
+							<td contenteditable = "true" id="4.1">00:00:00</td>
+							<td contenteditable = "true" id="4.2">00:00:00</td>
+							<td contenteditable = "true" id="4.3">00:00:00</td>
+							<td contenteditable = "true" id="4.4">00:00:00</td>
+						</tr>
+						<tr>
+							<td>2 пара</td>
+							<td contenteditable = "true" id="4.5"v>00:00:00</td>
+							<td contenteditable = "true" id="4.6">00:00:00</td>
+							<td contenteditable = "true" id="4.7">00:00:00</td>
+							<td contenteditable = "true" id="4.8">00:00:00</td>
+						</tr>
+						<tr>
+							<td>3 пара</td>
+							<td contenteditable = "true" id="4.9">00:00:00</td>
+							<td contenteditable = "true" id="4.10">00:00:00</td>
+							<td contenteditable = "true" id="4.11">00:00:00</td>
+							<td contenteditable = "true" id="4.12">00:00:00</td>
+						</tr>
+						<tr>
+							<td>4 пара</td>
+							<td contenteditable = "true" id="4.13">00:00:00</td>
+							<td contenteditable = "true" id="4.14">00:00:00</td>
+							<td contenteditable = "true" id="4.15">00:00:00</td>
+							<td contenteditable = "true" id="4.16">00:00:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+			<form>
+				<p>Пятница</p>
+				<table>
+					<thead>
+						<tr>
+							<td>№ пары</td>
+							<td>Начало</td>
+							<td>На пятиминутку</td>
+							<td>С пятиминутки</td>
+							<td>Конец</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 пара</td>
+							<td contenteditable = "true" id="5.1">00:00:00</td>
+							<td contenteditable = "true" id="5.2">00:00:00</td>
+							<td contenteditable = "true" id="5.3">00:00:00</td>
+							<td contenteditable = "true" id="5.4">00:00:00</td>
+						</tr>
+						<tr>
+							<td>2 пара</td>
+							<td contenteditable = "true" id="5.5"v>00:00:00</td>
+							<td contenteditable = "true" id="5.6">00:00:00</td>
+							<td contenteditable = "true" id="5.7">00:00:00</td>
+							<td contenteditable = "true" id="5.8">00:00:00</td>
+						</tr>
+						<tr>
+							<td>3 пара</td>
+							<td contenteditable = "true" id="5.9">00:00:00</td>
+							<td contenteditable = "true" id="5.10">00:00:00</td>
+							<td contenteditable = "true" id="5.11">00:00:00</td>
+							<td contenteditable = "true" id="5.12">00:00:00</td>
+						</tr>
+						<tr>
+							<td>4 пара</td>
+							<td contenteditable = "true" id="5.13">00:00:00</td>
+							<td contenteditable = "true" id="5.14">00:00:00</td>
+							<td contenteditable = "true" id="5.15">00:00:00</td>
+							<td contenteditable = "true" id="5.16">00:00:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+			<form>
+				<p>Суббота</p>
+				<table>
+					<thead>
+						<tr>
+							<td>№ пары</td>
+							<td>Начало</td>
+							<td>На пятиминутку</td>
+							<td>С пятиминутки</td>
+							<td>Конец</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1 пара</td>
+							<td contenteditable = "true" id="6.1">00:00:00</td>
+							<td contenteditable = "true" id="6.2">00:00:00</td>
+							<td contenteditable = "true" id="6.3">00:00:00</td>
+							<td contenteditable = "true" id="6.4">00:00:00</td>
+						</tr>
+						<tr>
+							<td>2 пара</td>
+							<td contenteditable = "true" id="6.5"v>00:00:00</td>
+							<td contenteditable = "true" id="6.6">00:00:00</td>
+							<td contenteditable = "true" id="6.7">00:00:00</td>
+							<td contenteditable = "true" id="6.8">00:00:00</td>
+						</tr>
+						<tr>
+							<td>3 пара</td>
+							<td contenteditable = "true" id="6.9">00:00:00</td>
+							<td contenteditable = "true" id="6.10">00:00:00</td>
+							<td contenteditable = "true" id="6.11">00:00:00</td>
+							<td contenteditable = "true" id="6.12">00:00:00</td>
+						</tr>
+						<tr>
+							<td>4 пара</td>
+							<td contenteditable = "true" id="6.13">00:00:00</td>
+							<td contenteditable = "true" id="6.14">00:00:00</td>
+							<td contenteditable = "true" id="6.15">00:00:00</td>
+							<td contenteditable = "true" id="6.16">00:00:00</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+		<div>
+			<input type="file" id="file">
+			<input onclick="callCreate()" class="button" type="submit" value="Создать">
+		</div>
+    </main>
+    <footer>
+        Нужна помощь? Звоните: +79995147308
+    </footer>
+</body>
+</html>
